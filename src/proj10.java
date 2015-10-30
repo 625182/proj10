@@ -63,7 +63,7 @@ public class proj10 {
         person_j.setFirstName("Кукушка");
         person_j.setOrgFormShort("ООО");
         person_j.setOrgFormFull("Общество с ограниченной ответственностью");
-
+        //#TODO сделать вывод наименования юр лица
         //System.out.printf("Наименование юридического лица: %s%n", person_j.getFullName());
 /*
         Date tmp = new Date();
@@ -86,6 +86,14 @@ public class proj10 {
         else
             System.out.println("not connected");
 */
+
+        person.yearArray = new int[20];
+        for (int i = 0; i < 20; i++) {
+            person.yearArray[i] = 5 * i;
+        }
+        for (int i = 19; i > -1; i--) {
+            System.out.println(person.yearArray[i]);
+        }
         System.out.println("Ending work");
     }
 }

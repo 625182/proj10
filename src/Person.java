@@ -5,6 +5,7 @@ public class Person {
     // addition fields
     String fullName;
     Short age;
+    int[] yearArray;
 
     public void setFirstName(String firstName){
         this.firstName = firstName;
