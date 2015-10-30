@@ -55,8 +55,8 @@ public class proj10 {
         }
         person.setBirthday(birthdayInDate);
 
-        //System.out.printf("ФИО: %s, дата рождения: %2$tm %2$te %2$tY, возраст: %3$d лет.%n", person.getFullName(), person.getBirthday(), 30);
-        //System.out.printf("%n");
+        System.out.printf("ФИО: %s, дата рождения: %2$tm %2$te %2$tY, возраст: %3$d лет.%n", person.getFullName(), person.getBirthday(), 30);
+        System.out.printf("%n");
 
         // Person_J
         Person_J person_j = new Person_J();
